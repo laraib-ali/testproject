@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Urbanist', sans-serif;
+}
+.navbar{
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.carousel-item{
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  
+}
+.carouselText{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.heading{
+  color: #FFFFFF;
+}
+.heading span{
+  color: #B19013
+  ;
+}
+.paraText{
+  color: #FFFFFF;
+  font-size: 1.7vw;
+  font-family: 'Urbanist', sans-serif;
+}
+.button1{
+  background-color:#B19013;
+  border: none;
+  color: #FFFFFF;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+}
+.button2{
+  background-color:transparent;
+  border: 1px solid #B19013;
+  color:  #FFFFFF;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+}
+
+.card1{
+  background-color: #B19013;
+  width: 18rem;
+  height: 25rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+}
+.mycard {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cardImg1 {
+  width: 20rem;
+  height: 25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.cardImg2 {
+  position: relative;
+  height: 15rem;
+  margin-top: -220px;
+  margin-left: 102px;
+}
+.aboutSection{
+  /* margin-top: 15%; */
+  width: 80%;
+  margin: 90px auto;
+  padding: 2px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutImg{
+ flex: 1;
+ margin-right: 80px;
+ overflow: hidden;
+ transition: 0.5s ease;
+ height: 28rem;
+ width: 25rem;
+ 
+}
+.aboutText{
+  flex: 1;
+  height: 29rem;
+}
+.aboutText h3{
+  font-size: 2.1rem;
+
+}
+.aboutText span{
+  color: #B19013;
+}
+.aboutText p{
+   margin-top: 25px;
+   color: #000;
+   margin-bottom: 30px;
+}
+.aboutText a{
+   border: 2px solid #B19013;
+   background-color: #B19013;
+   border-radius: 7px;
+   text-decoration: none;
+   color: #FFFFFF;
+   padding: 10px 20px;
+   font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .aboutSection{
+    margin-top: 10%;
+    padding: 2px;
+    flex-direction: column;
+  }
+  .aboutImg{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .aboutText p{
+    padding: 0px;
+    font-size: 16px;
+  }
+  .aboutText a{
+    font-size: 10px;
+  }
+
+}
